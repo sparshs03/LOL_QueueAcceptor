@@ -5,7 +5,7 @@ import win32api, win32con, win32gui #pywin32
 
 #initializing objects and variables
 sct = mss.mss()
-windowHandle = win32gui.FindWindow(None, "Riot Client")
+windowHandle = win32gui.FindWindow(None, "League of Legends")
 win32gui.SetForegroundWindow(windowHandle)
 
 while True:
